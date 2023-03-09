@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-na8b
+  namespace: lpardo-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:37451adca6f611690397ee32afbe258f3ac5f0613347dd3e383cac80c9b4c718
+        name: my-python
+        resources: {}
+status: {}
