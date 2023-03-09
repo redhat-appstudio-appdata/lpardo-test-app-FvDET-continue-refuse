@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:FvDET-devfile-sample-java-springboot-basic-q4oh
+      - image: quay.io/redhat-appstudio/user-workload@sha256:f120b272f5ecf06c2b09f7d5cf29b017ed76273eba685538132c383263ce81be
         name: my-java-springboot
         resources: {}
 status: {}
